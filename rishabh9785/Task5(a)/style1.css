@@ -1,0 +1,108 @@
+.parent{
+    display:flex;
+    flex-wrap:wrap;
+}
+.Box1,.Box2,.Box3,.Box4,.Box5{
+    height:300px;
+    width:200px;
+}
+
+.Box1{
+    background-color:#1a237e;
+    height:300px;
+    width:100%;
+}
+.Box2{
+    background-color: #00bcd4;
+    width:100%;
+}
+.Box3{
+    background-color: #512da8;
+    width:100%;
+}
+.Box4{
+    background-color: #00695c;
+    width:100%;
+}
+.Box5{
+    background-color: #ffc107 ;
+    width:100%;
+}
+@media screen and (min-width:700px) and (max-width:900px){
+    .Box1{
+        background-color:#1a237e;
+        height:300px;
+        width:100%;
+    }
+    .Box2 {
+        background-color: #00bcd4;
+        width: 50%;
+    }
+    .Box3{
+        background-color: #512da8;
+        width:50%;
+    }
+    .Box4{
+        background-color: #00695c;
+        width:100%;
+    }
+    .Box5{
+        background-color: #ffc107 ;
+        width:100%;
+    }
+
+}
+@media screen and (min-width:900px) and (max-width:1100px){
+    .Box1{
+        background-color:#1a237e;
+        height:300px;
+        width:75%;
+    }
+    .Box2 {
+        background-color: #00bcd4;
+        height:300px;
+        width: 25%;
+    }
+    .Box3{
+        background-color: #512da8;
+        width:33.33%;
+    }
+    .Box4{
+        background-color: #00695c;
+        width:33.33%;
+    }
+    .Box5{
+        background-color: #ffc107 ;
+        width:33.33%;
+    }
+}
+
+@media screen and (min-width:1100px) and (max-width:1370px){
+    .parent{
+        margin-left: 300px;
+        margin-right:300px;
+        justify-content: center;
+    }
+    .Box1{
+        background-color:#1a237e;
+        height:300px;
+        width:75%;
+    }
+    .Box2 {
+        background-color: #00bcd4;
+        height:300px;
+        width: 25%;
+    }
+    .Box3{
+        background-color: #512da8;
+        width:33.33%;
+    }
+    .Box4{
+        background-color: #00695c;
+        width:33.33%;
+    }
+    .Box5{
+        background-color: #ffc107 ;
+        width:33.33%;
+    }
+}
